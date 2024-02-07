@@ -23,6 +23,12 @@
             <p>number<input type="number" name="8048875" id="num"></p>                            
                       <button type="submit">submit</button>
         </form>
-      <script src="script.js"></script>
+      <script>
+        let submit=document.querySelector('button');
+submit.addEventListener('click',showMsg);
+function showMsg(){
+    alert('successfully registerd');
+}
+      </script>
 </body>
 </html>
